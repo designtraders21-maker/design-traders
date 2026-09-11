@@ -1,0 +1,571 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="DESIGN TRADERS — aluminium, PVC sheets, doors and hardware." />
+    <title>DESIGN TRADERS | Aluminium & Hardware</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#products">Skip to products</a>
+
+    <header class="site-header" id="top">
+      <div class="announcement">Quality materials. Helpful service. <span>•</span> Ask us on WhatsApp</div>
+      <div class="nav-wrap container">
+        <a class="brand" href="#top" aria-label="Design Traders home">
+          <img class="brand-logo" src="images/design-traders-logo.jpeg" alt="Design Traders logo" />
+          <span><b>DESIGN</b><strong>TRADERS</strong></span>
+        </a>
+
+        <button class="menu-button" aria-label="Open menu" aria-expanded="false" aria-controls="main-nav">
+          <span></span><span></span><span></span>
+        </button>
+        <nav id="main-nav" class="main-nav" aria-label="Primary navigation">
+          <a href="#products">Products</a>
+          <a href="#about">Why us</a>
+          <a href="#contact">Contact</a>
+          <a class="nav-cta" href="https://wa.me/919605807279?text=Hello%20Design%20Traders%2C%20I%20would%20like%20to%20enquire." target="_blank" rel="noopener">WhatsApp us <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">ALUMINIUM · PVC · DOORS · HARDWARE</p>
+            <h1>Materials that bring your <em>build</em> to life.</h1>
+            <p class="hero-text">Your local source for dependable aluminium sections, PVC sheets, doors and finishing hardware — chosen for projects that need to last.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#products">Browse products <span aria-hidden="true">↓</span></a>
+              <a class="text-link" href="https://wa.me/919605807279?text=Hello%20Design%20Traders%2C%20I%20need%20help%20choosing%20a%20product." target="_blank" rel="noopener">Talk to an expert <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="hero-notes" aria-label="Shop advantages">
+              <span><b>4</b> product ranges</span><span><b>Fast</b> WhatsApp enquiries</span><span><b>Easy</b> price checks</span>
+            </div>
+          </div>
+          <div class="hero-art" aria-label="Abstract aluminium profile illustration">
+            <img class="hero-logo-image" src="images/design-traders-logo.jpeg" alt="Design Traders and Aluminium logo" />
+            <div class="art-label label-top">DESIGN<br>IN DETAIL</div>
+            <div class="metal-frame frame-one"></div>
+            <div class="metal-frame frame-two"></div>
+            <div class="metal-frame frame-three"></div>
+            <div class="hero-circle"></div>
+            <div class="art-label label-bottom">BUILD<br>BETTER</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="category-strip" aria-label="Product categories">
+        <div class="container category-grid">
+          <a href="#products" data-category-link="Aluminium"><span class="category-icon icon-aluminium">╋</span><span>Aluminium</span><small>Profiles & sections</small><b>→</b></a>
+          <a href="#products" data-category-link="PVC Sheet"><span class="category-icon icon-pvc">▧</span><span>PVC Sheet</span><small>Boards & panels</small><b>→</b></a>
+          <a href="#products" data-category-link="Doors"><span class="category-icon icon-door">▯</span><span>Doors</span><small>Ready to install</small><b>→</b></a>
+          <a href="#products" data-category-link="Hardware"><span class="category-icon icon-hardware">✦</span><span>Hardware</span><small>Finishing essentials</small><b>→</b></a>
+        </div>
+      </section>
+
+      <section class="products-section container" id="products">
+        <div class="section-heading">
+          <div><p class="eyebrow">OUR CATALOGUE</p><h2>Find the right fit.</h2></div>
+          <p>Browse a selection of our popular products. Message us for availability, sizes and the latest price.</p>
+        </div>
+
+        <div class="catalogue-controls">
+          <label class="search-box" for="product-search"><span aria-hidden="true">⌕</span><input id="product-search" type="search" placeholder="Search products..." autocomplete="off" /></label>
+          <div class="filter-row" aria-label="Filter products by category">
+            <button class="filter active" data-filter="All">All</button>
+            <button class="filter" data-filter="Aluminium">Aluminium</button>
+            <button class="filter" data-filter="PVC Sheet">PVC Sheet</button>
+            <button class="filter" data-filter="Doors">Doors</button>
+            <button class="filter" data-filter="Hardware">Hardware</button>
+          </div>
+        </div>
+
+        <p class="results-count" aria-live="polite"></p>
+        <div class="product-grid" id="product-grid"></div>
+        <div class="no-results" id="no-results" hidden>
+          <span>⌕</span><h3>No products found</h3><p>Try another search or browse all products.</p><button class="text-link reset-search">View all products →</button>
+        </div>
+      </section>
+
+      <section class="service-panel" id="about">
+        <div class="container service-grid">
+          <div class="service-intro"><p class="eyebrow">THE DESIGN TRADERS DIFFERENCE</p><h2>Practical help,<br>proper materials.</h2></div>
+          <div class="benefit"><span>01</span><h3>Quality-first selection</h3><p>Materials chosen to look good, work hard and stand up to daily use.</p></div>
+          <div class="benefit"><span>02</span><h3>Clear, quick support</h3><p>Send a photo or requirement on WhatsApp and get straight answers.</p></div>
+          <div class="benefit"><span>03</span><h3>Built for your project</h3><p>From one replacement fitting to a complete new build, we’re here to help.</p></div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="container contact-card">
+          <div><p class="eyebrow">READY WHEN YOU ARE</p><h2>Have a project in mind?</h2><p>Tell us what you are building. We’ll help you find the material you need.</p></div>
+          <a class="button button-light" href="https://wa.me/919605807279?text=Hello%20Design%20Traders%2C%20I%20would%20like%20to%20enquire%20about%20your%20products." target="_blank" rel="noopener">Chat on WhatsApp <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-main">
+        <a class="brand brand-footer" href="#top"><img class="brand-logo" src="images/design-traders-logo.jpeg" alt="Design Traders logo" /><span><b>DESIGN</b><strong>TRADERS</strong></span></a>
+        <div><p class="footer-heading">Get in touch</p><a href="tel:+919605807279">+91 96058 07279</a><a href="https://wa.me/919605807279" target="_blank" rel="noopener">WhatsApp</a></div>
+        <div><p class="footer-heading">Browse</p><a href="#products">All products</a><a href="#about">Why Design Traders</a><a href="admin.html">Admin login</a></div>
+        <p class="footer-note">Aluminium · PVC Sheet · Doors · Hardware</p>
+      </div>
+      <div class="container footer-bottom"><span>© <span id="year"></span> Design Traders</span><span>Made for better builds.</span></div>
+    </footer>
+
+    <a class="floating-whatsapp" href="https://wa.me/919605807279?text=Hello%20Design%20Traders%2C%20I%20would%20like%20to%20enquire." target="_blank" rel="noopener" aria-label="Chat with Design Traders on WhatsApp"><span>◔</span><b>WhatsApp</b></a>
+
+    <template id="product-template">
+      <article class="product-card">
+        <div class="product-image"><img alt="" hidden><div class="placeholder-art" aria-hidden="true"></div><span class="product-category"></span></div>
+        <div class="product-details"><h3></h3><p class="product-description"></p><div class="product-bottom"><span class="product-price"></span><a class="order-link" target="_blank" rel="noopener">Order <span aria-hidden="true">↗</span></a></div></div>
+      </article>
+    </template>
+    <script src="product-data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+/*
+  Product data for DESIGN TRADERS.
+  The Admin dashboard creates an updated version of this file for you to upload.
+*/
+window.DESIGN_TRADERS_PRODUCTS = [
+  { name: "J Square Champion 950g", category: "Aluminium", price: "₹650", description: "Strong aluminium section for modern fabrication work.", image: "" },
+  { name: "Aluminium Sliding Profile", category: "Aluminium", price: "Ask for price", description: "Smooth-finish profile for sliding windows and partitions.", image: "" },
+  { name: "PVC Foam Board — White", category: "PVC Sheet", price: "From ₹1,050", description: "Versatile, lightweight board for interiors and signage.", image: "" },
+  { name: "PVC Marble Sheet", category: "PVC Sheet", price: "From ₹780", description: "Easy-care decorative wall panel with a marble look.", image: "" },
+  { name: "WPC Door — Classic Walnut", category: "Doors", price: "From ₹6,500", description: "Smart, durable door solution for home and commercial use.", image: "" },
+  { name: "PVC Bathroom Door", category: "Doors", price: "From ₹2,200", description: "Moisture-resistant door designed for everyday use.", image: "" },
+  { name: "Premium Door Handle", category: "Hardware", price: "₹380", description: "A solid, comfortable handle with a clean modern finish.", image: "" },
+  { name: "Heavy Duty Hinges", category: "Hardware", price: "₹160 / pair", description: "Reliable hinges for doors, cabinets and furniture fittings.", image: "" }
+];
+
+# DESIGN TRADERS website
+
+This is a simple, responsive catalogue website. It is ready to upload to free static hosting such as GitHub Pages or Cloudflare Pages. The site includes the supplied DESIGN TRADERS logo and uses WhatsApp number **+91 96058 07279**.
+
+## Publish for free
+
+### GitHub Pages
+
+1. Create a new GitHub repository.
+2. Upload every file in this folder (keep `index.html`, `styles.css`, and `script.js` together).
+3. In the repository, open **Settings → Pages**.
+4. Under **Build and deployment**, select **Deploy from a branch**, choose `main` and `/ (root)`, then save.
+5. GitHub gives you a free `github.io` website address in a minute or two.
+
+### Cloudflare Pages
+
+1. Sign in to Cloudflare and open **Workers & Pages → Create application → Pages**.
+2. Upload this folder using **Direct Upload**, or connect a GitHub repository containing these files.
+3. No build command is needed; `index.html` is the homepage.
+4. Cloudflare gives you a free `pages.dev` website address.
+
+## Manage products with the Admin dashboard
+
+Open `admin.html` in the same browser as your website. Sign in with:
+
+- **Username:** `designadmin`
+- **Password:** `Design@2026!`
+
+You can add products, change details, remove products, and choose a product image from your device. The dashboard keeps a draft only in that browser, so it does not accidentally change the public website.
+
+When you are happy with the draft, select **Download updated products**. Upload and replace the downloaded `product-data.js` in your GitHub repository or Cloudflare Pages deployment. The change will then be visible to all website visitors.
+
+> Important: GitHub Pages and Cloudflare Pages are static hosts. A browser-only password page cannot securely update a live public website itself; it has no private database or server. The included admin page is a convenient free editor and export tool. A fully online, secure admin login that publishes changes for everyone needs a database/backend service.
+
+## Add or change products by editing files
+
+Open `product-data.js` in any text editor. The product list controls every product card.
+
+Copy a product entry, then change the name, category, price and description. Categories must be exactly one of: `Aluminium`, `PVC Sheet`, `Doors`, or `Hardware`.
+
+To add a real product image:
+
+1. Create an `images` folder next to `index.html`.
+2. Put an image in it, for example `images/sliding-profile.jpg`.
+3. On the product entry, change `image: ""` to `image: "images/sliding-profile.jpg"`.
+
+The website uses clean illustrated placeholders until a product image is supplied. All product-order buttons automatically open WhatsApp for **+91 90727 98273** with the product name in the message.
+
+/* Product catalogue display. Product details live in product-data.js. */
+const defaultProducts = Array.isArray(window.DESIGN_TRADERS_PRODUCTS) ? window.DESIGN_TRADERS_PRODUCTS : [];
+let products = defaultProducts;
+
+try {
+  const savedProducts = JSON.parse(localStorage.getItem("designTradersProducts"));
+  if (Array.isArray(savedProducts)) products = savedProducts;
+} catch (_) {
+  // The original catalogue remains available when browser storage is unavailable.
+}
+
+const grid = document.querySelector("#product-grid");
+const template = document.querySelector("#product-template");
+const searchInput = document.querySelector("#product-search");
+const filters = document.querySelectorAll(".filter");
+const noResults = document.querySelector("#no-results");
+const resultsCount = document.querySelector(".results-count");
+let currentFilter = "All";
+
+function whatsappUrl(product) {
+  const text = `Hello Design Traders, I would like to enquire about ${product.name} (${product.price}).`;
+  return `https://wa.me/919605807279?text=${encodeURIComponent(text)}`;
+}
+
+function renderProducts() {
+  const query = searchInput.value.trim().toLowerCase();
+  const matching = products.filter((product) => {
+    const inCategory = currentFilter === "All" || product.category === currentFilter;
+    const searchText = `${product.name} ${product.category} ${product.description}`.toLowerCase();
+    return inCategory && searchText.includes(query);
+  });
+
+  grid.innerHTML = "";
+  matching.forEach((product) => {
+    const card = template.content.cloneNode(true);
+    const article = card.querySelector("article");
+    const image = card.querySelector("img");
+    article.dataset.category = product.category;
+    card.querySelector(".product-category").textContent = product.category;
+    card.querySelector("h3").textContent = product.name;
+    card.querySelector(".product-description").textContent = product.description;
+    card.querySelector(".product-price").textContent = product.price;
+    const orderLink = card.querySelector(".order-link");
+    orderLink.href = whatsappUrl(product);
+    orderLink.setAttribute("aria-label", `Order ${product.name} on WhatsApp`);
+
+    if (product.image) {
+      image.src = product.image;
+      image.alt = product.name;
+      image.hidden = false;
+    }
+    grid.appendChild(card);
+  });
+
+  noResults.hidden = matching.length !== 0;
+  resultsCount.textContent = `${matching.length} PRODUCT${matching.length === 1 ? "" : "S"} FOUND`;
+}
+
+filters.forEach((filter) => {
+  filter.addEventListener("click", () => {
+    currentFilter = filter.dataset.filter;
+    filters.forEach((button) => button.classList.toggle("active", button === filter));
+    renderProducts();
+  });
+});
+
+document.querySelectorAll("[data-category-link]").forEach((link) => {
+  link.addEventListener("click", () => {
+    currentFilter = link.dataset.categoryLink;
+    filters.forEach((button) => button.classList.toggle("active", button.dataset.filter === currentFilter));
+    renderProducts();
+  });
+});
+
+searchInput.addEventListener("input", renderProducts);
+document.querySelector(".reset-search").addEventListener("click", () => {
+  searchInput.value = "";
+  currentFilter = "All";
+  filters.forEach((button) => button.classList.toggle("active", button.dataset.filter === "All"));
+  renderProducts();
+});
+
+const menuButton = document.querySelector(".menu-button");
+const nav = document.querySelector(".main-nav");
+menuButton.addEventListener("click", () => {
+  const isOpen = nav.classList.toggle("open");
+  menuButton.setAttribute("aria-expanded", isOpen);
+  menuButton.setAttribute("aria-label", isOpen ? "Close menu" : "Open menu");
+});
+nav.querySelectorAll("a").forEach((link) => link.addEventListener("click", () => {
+  nav.classList.remove("open");
+  menuButton.setAttribute("aria-expanded", "false");
+}));
+
+document.querySelector("#year").textContent = new Date().getFullYear();
+renderProducts();
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap');
+
+:root { --ink:#102124; --muted:#607174; --paper:#f8f7f3; --white:#fff; --line:#dce0db; --forest:#0d554b; --forest-dark:#083d36; --lime:#cdf05b; --orange:#f36e45; --cream:#ece9df; --shadow:0 18px 45px rgba(15,35,36,.08); }
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body { margin:0; color:var(--ink); background:var(--paper); font-family:Manrope,Arial,sans-serif; font-size:15px; line-height:1.6; }
+a { color:inherit; text-decoration:none; }
+button,input { font:inherit; }
+button { cursor:pointer; }
+.container { width:min(1160px, calc(100% - 48px)); margin:0 auto; }
+.skip-link { position:fixed; z-index:99; top:-60px; left:16px; padding:9px 15px; color:#fff; background:var(--forest); border-radius:5px; }.skip-link:focus { top:16px; }
+.announcement { padding:7px 16px; color:#e7f9d6; background:var(--forest-dark); text-align:center; font:11px/1.3 'DM Mono',monospace; letter-spacing:.04em; }.announcement span { color:var(--lime); margin:0 8px; }
+.site-header { position:relative; z-index:10; background:var(--paper); }.nav-wrap { min-height:87px; display:flex; align-items:center; justify-content:space-between; }
+.brand { display:inline-flex; align-items:center; gap:10px; color:var(--ink); font-size:13px; line-height:.95; letter-spacing:.115em; }.brand b,.brand strong { display:block; font-weight:800; }.brand strong { color:var(--forest); }.brand-logo { width:43px; height:43px; object-fit:cover; background:#101010; border-radius:2px; box-shadow:0 3px 9px rgba(0,0,0,.12); }
+.main-nav { display:flex; gap:30px; align-items:center; font-weight:700; font-size:13px; }.main-nav > a:not(.nav-cta) { position:relative; }.main-nav > a:not(.nav-cta)::after { content:""; position:absolute; bottom:-4px; left:0; height:2px; width:0; background:var(--forest); transition:width .2s; }.main-nav > a:hover::after { width:100%; }.nav-cta { padding:10px 15px; color:var(--forest); border:1px solid #b5c6bf; border-radius:2px; }.nav-cta:hover { color:#fff; background:var(--forest); border-color:var(--forest); }.menu-button { display:none; border:0; background:transparent; }.menu-button span { display:block; width:24px; height:2px; margin:5px; background:var(--ink); }
+.hero { overflow:hidden; background:var(--paper); }.hero-grid { min-height:545px; display:grid; grid-template-columns:1.04fr .96fr; gap:60px; align-items:center; }.eyebrow { margin:0 0 15px; color:var(--forest); font:11px/1.3 'DM Mono',monospace; letter-spacing:.12em; font-weight:bold; }.hero h1,.section-heading h2,.service-intro h2,.contact-card h2 { margin:0; letter-spacing:-.055em; font-size:clamp(42px,5.1vw,70px); line-height:1.03; font-weight:800; }.hero h1 em { color:var(--forest); font-family:'Playfair Display',Georgia,serif; font-weight:600; }.hero-text { max-width:525px; margin:25px 0; color:var(--muted); font-size:16px; }.hero-actions { display:flex; align-items:center; gap:25px; }.button { display:inline-flex; align-items:center; gap:16px; padding:14px 19px; border:1px solid transparent; border-radius:2px; font-size:13px; font-weight:800; transition:transform .2s,background .2s; }.button:hover { transform:translateY(-2px); }.button-primary { color:#fff; background:var(--forest); }.button-primary:hover { background:var(--forest-dark); }.text-link { display:inline-block; color:var(--forest); background:transparent; border:0; padding:4px 0; font-size:13px; font-weight:800; }.text-link:hover { color:var(--orange); }.hero-notes { display:flex; gap:15px; flex-wrap:wrap; margin-top:42px; color:var(--muted); font-size:11px; }.hero-notes span { padding-right:15px; border-right:1px solid var(--line); }.hero-notes span:last-child { border:0; }.hero-notes b { color:var(--ink); }
+.hero-art { height:405px; min-width:0; position:relative; isolation:isolate; background:#0d0d0d; overflow:hidden; box-shadow:inset 0 0 0 1px rgba(255,255,255,.08); }.hero-logo-image { width:100%; height:100%; position:absolute; z-index:0; object-fit:cover; object-position:center; }.hero-art::after { content:""; position:absolute; z-index:1; inset:0; pointer-events:none; background:linear-gradient(135deg,rgba(6,23,20,.28),transparent 40%,rgba(0,0,0,.27)); }.hero-circle,.metal-frame { display:none; }.art-label { z-index:2; color:#d6e9d2; padding:6px 8px; background:rgba(6,34,29,.77); font:10px/1.25 'DM Mono',monospace; letter-spacing:.14em; font-weight:bold; }.label-top { top:19px; left:19px; }.label-bottom { right:19px; bottom:19px; text-align:right; }
+.category-strip { border-top:1px solid var(--line); border-bottom:1px solid var(--line); background:#fff; }.category-grid { display:grid; grid-template-columns:repeat(4,1fr); }.category-grid a { min-height:150px; position:relative; display:grid; grid-template-columns:44px 1fr; grid-template-rows:27px 20px; column-gap:13px; padding:32px 22px; border-right:1px solid var(--line); transition:background .2s; }.category-grid a:first-child { border-left:1px solid var(--line); }.category-grid a:hover { background:#f1f5e7; }.category-icon { grid-row:span 2; display:grid; place-items:center; width:39px; height:39px; color:var(--forest); background:var(--lime); font-size:22px; }.icon-pvc { font-size:25px; }.icon-door { font-size:31px; }.category-grid a > span:nth-child(2) { align-self:end; font-size:15px; font-weight:800; }.category-grid small { color:var(--muted); font-size:10px; }.category-grid b { position:absolute; right:22px; bottom:25px; color:var(--forest); }
+.products-section { padding:107px 0 113px; }.section-heading { display:flex; justify-content:space-between; align-items:end; gap:30px; }.section-heading h2,.service-intro h2,.contact-card h2 { font-size:clamp(35px,4vw,52px); }.section-heading > p { max-width:390px; margin:0 0 4px; color:var(--muted); font-size:13px; }.catalogue-controls { display:flex; align-items:center; justify-content:space-between; gap:25px; margin:44px 0 14px; }.search-box { display:flex; align-items:center; gap:9px; width:275px; padding:10px 12px; color:var(--muted); background:#fff; border:1px solid var(--line); border-radius:2px; }.search-box span { font-size:22px; line-height:1; transform:rotate(-20deg); }.search-box input { min-width:0; width:100%; color:var(--ink); background:none; border:0; outline:0; font-size:13px; }.filter-row { display:flex; gap:7px; flex-wrap:wrap; }.filter { padding:8px 13px; color:var(--muted); background:transparent; border:1px solid transparent; border-radius:2px; font-size:12px; font-weight:700; }.filter:hover { color:var(--forest); }.filter.active { color:var(--forest); border-color:#b9c9bc; background:#edf3e8; }.results-count { min-height:20px; margin:0 0 16px; color:var(--muted); font:10px 'DM Mono',monospace; letter-spacing:.06em; }.product-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; }.product-card { min-width:0; background:#fff; border:1px solid var(--line); transition:transform .25s,box-shadow .25s; }.product-card:hover { transform:translateY(-5px); box-shadow:var(--shadow); }.product-image { height:235px; position:relative; overflow:hidden; background:#e6e8e2; }.product-image img { width:100%; height:100%; object-fit:cover; }.placeholder-art { position:absolute; inset:0; }.placeholder-art::before,.placeholder-art::after { content:""; position:absolute; }.product-category { position:absolute; top:12px; left:12px; padding:5px 8px; color:#fff; background:var(--forest-dark); font:9px 'DM Mono',monospace; letter-spacing:.08em; text-transform:uppercase; }.product-card[data-category="Aluminium"] .product-image { background:#cbd4d1; }.product-card[data-category="Aluminium"] .placeholder-art::before { top:28%; left:15%; width:72%; height:25%; border:14px solid #eef2ee; border-top-width:18px; box-shadow:0 22px 0 #758783,0 44px 0 #eef2ee; transform:skewX(-20deg); }.product-card[data-category="PVC Sheet"] .product-image { background:#ead0ba; }.product-card[data-category="PVC Sheet"] .placeholder-art::before { top:16%; left:28%; width:44%; height:76%; background:#e96d48; box-shadow:12px -12px 0 #f3ae63,24px -24px 0 #136057; transform:skewY(-9deg); }.product-card[data-category="Doors"] .product-image { background:#d9d6c7; }.product-card[data-category="Doors"] .placeholder-art::before { bottom:-3%; left:31%; width:41%; height:86%; background:#8c5e3c; border:8px solid #f4e8cc; box-shadow:inset 18px 0 rgba(255,255,255,.12); }.product-card[data-category="Doors"] .placeholder-art::after { top:55%; left:63%; width:9px; height:9px; border-radius:50%; background:#ffd567; }.product-card[data-category="Hardware"] .product-image { background:#c9e4dd; }.product-card[data-category="Hardware"] .placeholder-art::before { top:31%; left:22%; width:54%; height:25%; background:#f0be38; border-radius:8px 80% 60% 8px; transform:rotate(-39deg); box-shadow:32px 30px 0 -9px #5a6f6c; }.product-details { padding:17px 16px 16px; }.product-details h3 { margin:0; font-size:14px; line-height:1.35; letter-spacing:-.02em; }.product-description { height:38px; margin:6px 0 14px; overflow:hidden; color:var(--muted); font-size:11px; line-height:1.65; }.product-bottom { display:flex; align-items:center; justify-content:space-between; gap:8px; }.product-price { color:var(--forest); font-size:14px; font-weight:800; }.order-link { color:var(--forest); font-size:11px; font-weight:800; }.order-link:hover { color:var(--orange); }.no-results { padding:60px 20px; text-align:center; background:#fff; border:1px solid var(--line); }.no-results > span { color:var(--forest); font-size:34px; }.no-results h3 { margin:5px 0; }.no-results p { margin:0 0 15px; color:var(--muted); font-size:13px; }
+.service-panel { color:#fff; background:var(--forest-dark); }.service-grid { display:grid; grid-template-columns:1.5fr repeat(3,1fr); }.service-intro,.benefit { min-height:310px; padding:67px 25px; border-right:1px solid rgba(255,255,255,.17); }.service-intro { padding-left:0; }.service-intro .eyebrow { color:var(--lime); }.service-intro h2 { color:#fff; }.benefit span { color:var(--lime); font:11px 'DM Mono',monospace; }.benefit h3 { margin:37px 0 10px; font-size:15px; }.benefit p { color:#c1d4d0; font-size:12px; line-height:1.8; }
+.contact-section { padding:74px 0; background:#edf3e8; }.contact-card { display:flex; justify-content:space-between; gap:25px; align-items:center; padding:47px 57px; background:var(--lime); }.contact-card h2 { font-size:clamp(33px,4vw,49px); }.contact-card p:not(.eyebrow) { margin:10px 0 0; font-size:13px; }.button-light { flex-shrink:0; color:#fff; background:var(--forest); }
+.site-footer { padding:58px 0 15px; color:#d5e2de; background:var(--ink); }.footer-main { display:grid; grid-template-columns:1.8fr 1fr 1fr 1.2fr; gap:25px; }.brand-footer { color:#fff; }.brand-footer strong { color:var(--lime); }.footer-heading { margin:0 0 10px; color:var(--lime); font:10px 'DM Mono',monospace; letter-spacing:.1em; text-transform:uppercase; }.footer-main div a { display:block; margin:4px 0; font-size:12px; }.footer-main div a:hover { color:var(--lime); }.footer-note { margin:0; align-self:end; text-align:right; color:#8ba39e; font:10px 'DM Mono',monospace; letter-spacing:.08em; }.footer-bottom { display:flex; justify-content:space-between; margin-top:55px; padding-top:13px; border-top:1px solid #34504d; color:#8ba39e; font-size:10px; }.floating-whatsapp { position:fixed; z-index:30; right:22px; bottom:21px; display:flex; align-items:center; gap:8px; padding:11px 14px; color:#fff; background:#1f9b59; box-shadow:0 7px 22px rgba(0,0,0,.19); border-radius:50px; font-size:12px; }.floating-whatsapp span { width:19px; height:19px; display:grid; place-items:center; border:1px solid #fff; border-radius:50%; transform:rotate(-38deg); font-size:13px; }
+@media (max-width:850px) { .hero-grid { min-height:0; padding:60px 0; gap:35px; }.hero-art { height:330px; }.product-grid { grid-template-columns:repeat(3,1fr); }.service-grid { grid-template-columns:1fr 1fr; }.service-intro { padding-left:0; }.service-intro,.benefit { min-height:230px; }.service-intro { grid-column:span 2; padding-bottom:10px; border:0; }.footer-main { grid-template-columns:1.5fr 1fr 1fr; }.footer-note { display:none; } }
+@media (max-width:650px) { .container { width:min(100% - 32px, 550px); }.announcement { font-size:9px; }.nav-wrap { min-height:70px; }.menu-button { display:block; }.main-nav { position:absolute; top:100%; left:0; right:0; display:none; flex-direction:column; align-items:stretch; gap:0; padding:12px 16px 18px; background:var(--paper); box-shadow:0 15px 20px rgba(0,0,0,.06); }.main-nav.open { display:flex; }.main-nav a { padding:11px 0; }.nav-cta { margin-top:5px; text-align:center; }.hero-grid { grid-template-columns:1fr; padding:50px 0 0; gap:37px; }.hero-copy { padding-bottom:0; }.hero h1 { font-size:47px; }.hero-text { font-size:14px; }.hero-art { margin:0 -16px; height:305px; }.hero-notes { margin-top:31px; }.category-grid { grid-template-columns:1fr 1fr; }.category-grid a { min-height:116px; padding:20px 14px; }.category-grid a:nth-child(odd) { border-left:1px solid var(--line); }.category-grid a:nth-child(-n+2) { border-bottom:1px solid var(--line); }.category-grid a > b { right:15px; bottom:17px; }.products-section { padding:72px 0; }.section-heading { display:block; }.section-heading > p { margin-top:15px; }.catalogue-controls { display:block; margin-top:30px; }.search-box { width:100%; }.filter-row { margin-top:12px; gap:2px; }.filter { padding:7px 9px; font-size:11px; }.product-grid { grid-template-columns:repeat(2,1fr); gap:10px; }.product-image { height:180px; }.product-details { padding:13px 12px; }.product-description { height:52px; font-size:10px; }.product-bottom { align-items:flex-start; flex-direction:column; }.service-grid { display:block; }.service-intro,.benefit { min-height:0; padding:38px 0; border-right:0; border-bottom:1px solid rgba(255,255,255,.17); }.service-intro { padding-top:60px; }.benefit:last-child { border-bottom:0; }.benefit h3 { margin-top:22px; }.contact-section { padding:42px 0; }.contact-card { display:block; padding:36px 25px; }.contact-card .button { margin-top:28px; }.footer-main { grid-template-columns:1fr 1fr; row-gap:36px; }.footer-main > .brand { grid-column:span 2; }.footer-bottom { margin-top:35px; }.floating-whatsapp { right:15px; bottom:14px; }.floating-whatsapp b { display:none; }.floating-whatsapp { padding:12px; } }
+@media (max-width:370px) { .product-grid { grid-template-columns:1fr; }.product-image { height:210px; }.hero-actions { align-items:flex-start; flex-direction:column; gap:14px; } }
+
+.admin-page { min-height:100vh; background:#edf3e8; }.admin-container { width:min(1120px, calc(100% - 48px)); margin:0 auto; }.admin-header { padding:15px 0; background:var(--paper); border-bottom:1px solid var(--line); }.admin-header .admin-container { display:flex; justify-content:space-between; align-items:center; }.back-link { color:var(--forest); font-size:12px; font-weight:800; }.back-link:hover { color:var(--orange); }.login-card { width:min(465px,100%); margin:84px auto; padding:43px; background:#fff; border:1px solid var(--line); box-shadow:var(--shadow); }.login-card h1,.admin-title-row h1 { margin:0; letter-spacing:-.05em; font-size:43px; line-height:1.05; }.login-card > p:not(.eyebrow) { color:var(--muted); font-size:13px; }.login-card form { display:grid; gap:17px; margin-top:28px; }.login-card label,.product-form-panel label { display:grid; gap:6px; color:var(--ink); font-size:11px; font-weight:800; }.login-card input,.product-form-panel input,.product-form-panel select,.product-form-panel textarea { width:100%; padding:11px 12px; color:var(--ink); background:#fafbf9; border:1px solid #ccd5cf; border-radius:2px; outline-color:var(--forest); font-size:13px; font-weight:500; }.form-error { min-height:18px; margin:0; color:#c53f28; font-size:11px; }.login-card .button { justify-self:start; margin-top:2px; }.admin-title-row { display:flex; justify-content:space-between; align-items:end; padding:67px 0 28px; }.admin-title-row > div > p:not(.eyebrow) { margin:10px 0 0; color:var(--muted); font-size:13px; }.logout-button,.secondary-button,.icon-button { border:1px solid #b5c6bf; border-radius:2px; background:transparent; color:var(--forest); font-size:11px; font-weight:800; }.logout-button { padding:10px 14px; }.logout-button:hover,.secondary-button:hover { color:#fff; background:var(--forest); }.admin-tools { display:flex; align-items:center; justify-content:space-between; gap:15px; padding:18px 20px; background:var(--forest-dark); color:#fff; }.admin-tools > div:first-child { display:flex; gap:8px; align-items:baseline; }.admin-tools b { color:var(--lime); font-size:20px; }.admin-tools span { font-size:11px; color:#cbe0db; }.admin-tool-buttons { display:flex; gap:8px; }.secondary-button { color:#e5f3ec; border-color:#6e9990; padding:10px 12px; }.admin-tools .button { padding:10px 13px; background:var(--lime); color:var(--forest-dark); }.admin-note { margin:0; padding:11px 16px; color:#526764; background:#dbe8dc; font-size:11px; }.admin-note code { color:var(--forest-dark); font-family:'DM Mono',monospace; }.admin-grid { display:grid; grid-template-columns:390px 1fr; gap:18px; align-items:start; padding:24px 0 70px; }.product-form-panel,.catalogue-panel { padding:22px; background:#fff; border:1px solid var(--line); }.panel-heading { display:flex; justify-content:space-between; align-items:center; gap:10px; margin-bottom:20px; }.panel-heading h2 { margin:0; font-size:17px; letter-spacing:-.03em; }.product-form-panel form { display:grid; gap:15px; }.two-fields { display:grid; grid-template-columns:1fr 1fr; gap:10px; }.product-form-panel textarea { min-height:86px; resize:vertical; }.product-form-panel .button { justify-self:start; margin-top:2px; }.image-upload-label small { color:var(--muted); font-weight:500; line-height:1.45; }.image-upload-label input[type=file] { padding:7px; cursor:pointer; }.image-preview { position:relative; width:125px; height:92px; overflow:hidden; border:1px solid var(--line); }.image-preview img { width:100%; height:100%; object-fit:cover; }.image-preview button { position:absolute; top:4px; right:4px; width:22px; height:22px; color:#fff; background:#b52e22; border:0; border-radius:50%; font-size:18px; line-height:1; }.draft-badge,.admin-category { color:var(--forest); font:9px 'DM Mono',monospace; letter-spacing:.08em; }.draft-badge { padding:5px 7px; background:#edf3e8; }.admin-product-list { display:grid; gap:1px; border-top:1px solid var(--line); }.admin-product { display:grid; grid-template-columns:81px 1fr auto; gap:13px; align-items:center; padding:13px 0; border-bottom:1px solid var(--line); }.admin-product-thumb { width:81px; height:66px; display:grid; place-items:center; overflow:hidden; color:var(--forest); background:#e2e7e1; }.admin-product-thumb img { width:100%; height:100%; object-fit:cover; }.admin-placeholder { font-size:25px; }.admin-product h3 { margin:3px 0; font-size:13px; line-height:1.3; }.admin-product p { margin:0; color:var(--muted); font-size:10px; line-height:1.45; }.admin-product b { color:var(--forest); font-size:11px; }.admin-product-actions { display:flex; gap:6px; }.icon-button { padding:7px 8px; }.edit-product:hover { color:#fff; background:var(--forest); }.delete-product { color:#a33725; border-color:#deb6ad; }.delete-product:hover { color:#fff; background:#a33725; }.empty-list { padding:30px 10px; color:var(--muted); text-align:center; font-size:12px; }@media (max-width:800px) { .admin-grid { grid-template-columns:1fr; }.product-form-panel { order:1; }.catalogue-panel { order:2; } }@media (max-width:600px) { .admin-container { width:min(100% - 32px, 560px); }.login-card { margin:45px auto; padding:28px 22px; }.admin-title-row { align-items:start; padding:45px 0 22px; }.admin-title-row h1,.login-card h1 { font-size:37px; }.admin-title-row { display:block; }.logout-button { margin-top:20px; }.admin-tools { align-items:stretch; flex-direction:column; padding:16px; }.admin-tool-buttons { display:grid; grid-template-columns:1fr; }.admin-tool-buttons .button,.admin-tool-buttons .secondary-button { justify-content:center; text-align:center; }.admin-grid { padding-top:15px; }.product-form-panel,.catalogue-panel { padding:18px 14px; }.admin-product { grid-template-columns:62px 1fr; }.admin-product-thumb { width:62px; height:58px; }.admin-product-actions { grid-column:2; }.admin-note { font-size:10px; } }
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Product Admin | Design Traders</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="admin.css" />
+  </head>
+  <body class="admin-page">
+    <header class="admin-header">
+      <div class="admin-container"><a class="brand" href="index.html"><img class="brand-logo" src="images/design-traders-logo.jpeg" alt="Design Traders logo" /><span><b>DESIGN</b><strong>TRADERS</strong></span></a><a class="back-link" href="index.html">← View website</a></div>
+    </header>
+
+    <main class="admin-container">
+      <section class="login-card" id="login-screen">
+        <p class="eyebrow">PRODUCT ADMIN</p><h1>Welcome back.</h1><p>Sign in to add, change or remove catalogue products.</p>
+        <form id="login-form" novalidate>
+          <label>Username<input id="username" type="text" autocomplete="username" required /></label>
+          <label>Password<input id="password" type="password" autocomplete="current-password" required /></label>
+          <p class="form-error" id="login-error" role="alert"></p>
+          <button class="button button-primary" type="submit">Sign in <span aria-hidden="true">→</span></button>
+        </form>
+      </section>
+
+      <section id="admin-screen" hidden>
+        <div class="admin-title-row"><div><p class="eyebrow">PRODUCT ADMIN</p><h1>Your catalogue</h1><p>Add a product or update any details below. Your draft is saved on this device.</p></div><button class="logout-button" id="logout-button">Log out</button></div>
+        <div class="admin-tools"><div><b id="admin-product-count"></b><span>products in your draft</span></div><div class="admin-tool-buttons"><button class="secondary-button" id="reset-button">Restore original list</button><button class="button button-primary" id="download-button">Download updated products <span aria-hidden="true">↓</span></button></div></div>
+        <p class="admin-note">To make changes live for all visitors, replace <code>product-data.js</code> on GitHub Pages or Cloudflare Pages with the downloaded file. A static site cannot publish changes directly from a password screen.</p>
+        <div class="admin-grid"><section class="product-form-panel"><div class="panel-heading"><h2 id="form-title">Add a product</h2><button class="text-link" id="clear-form" type="button">Clear form</button></div>
+          <form id="product-form">
+            <input id="editing-index" type="hidden" value="" />
+            <label>Product name<input id="product-name" maxlength="80" required placeholder="e.g. Aluminium Window Section" /></label>
+            <div class="two-fields"><label>Category<select id="product-category" required><option>Aluminium</option><option>PVC Sheet</option><option>Doors</option><option>Hardware</option></select></label><label>Price<input id="product-price" maxlength="40" required placeholder="e.g. ₹850" /></label></div>
+            <label>Description<textarea id="product-description" maxlength="180" required placeholder="A short, useful description of the product."></textarea></label>
+            <label>Image web address or local path <input id="product-image-url" maxlength="100000" placeholder="images/my-product.jpg or https://..." /></label>
+            <label class="image-upload-label">Or choose an image from this device <input id="product-image-file" type="file" accept="image/jpeg,image/png,image/webp" /><small>It is resized for the catalogue and included in your downloaded product file.</small></label>
+            <div class="image-preview" id="image-preview" hidden><img alt="Selected product preview" /><button type="button" id="remove-image" aria-label="Remove selected image">×</button></div>
+            <button class="button button-primary" type="submit" id="save-product">Add product <span aria-hidden="true">→</span></button>
+          </form>
+        </section>
+        <section class="catalogue-panel"><div class="panel-heading"><h2>Edit products</h2><span class="draft-badge">LOCAL DRAFT</span></div><div id="admin-product-list" class="admin-product-list"></div></section></div>
+      </section>
+    </main>
+    <template id="admin-product-template"><article class="admin-product"><div class="admin-product-thumb"><img alt="" hidden><span class="admin-placeholder">▧</span></div><div><span class="admin-category"></span><h3></h3><p></p><b></b></div><div class="admin-product-actions"><button class="icon-button edit-product" title="Edit product" aria-label="Edit product">Edit</button><button class="icon-button delete-product" title="Delete product" aria-label="Delete product">Delete</button></div></article></template>
+    <script src="product-data.js"></script>
+    <script src="admin.js"></script>
+  </body>
+</html>
+
+/*
+  This is a local administrator screen for a static website.
+  These credentials are a sign-in gate, not server-side security. Anyone who can
+  inspect static site files can discover or bypass them. Change them here if needed.
+*/
+const ADMIN_USERNAME = "designadmin";
+const ADMIN_PASSWORD = "Design@2026!";
+const STORAGE_KEY = "designTradersProducts";
+const baseProducts = Array.isArray(window.DESIGN_TRADERS_PRODUCTS) ? window.DESIGN_TRADERS_PRODUCTS : [];
+
+const loginScreen = document.querySelector("#login-screen");
+const adminScreen = document.querySelector("#admin-screen");
+const loginForm = document.querySelector("#login-form");
+const loginError = document.querySelector("#login-error");
+const productForm = document.querySelector("#product-form");
+const imageUrlInput = document.querySelector("#product-image-url");
+const imageFileInput = document.querySelector("#product-image-file");
+const imagePreview = document.querySelector("#image-preview");
+const previewImage = imagePreview.querySelector("img");
+let draftProducts = getDraftProducts();
+
+function getDraftProducts() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(STORAGE_KEY));
+    return Array.isArray(saved) ? saved : structuredClone(baseProducts);
+  } catch (_) {
+    return structuredClone(baseProducts);
+  }
+}
+
+function saveDraft() {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(draftProducts));
+  renderAdminProducts();
+}
+
+function safeText(value) {
+  return String(value || "").trim();
+}
+
+function renderAdminProducts() {
+  const list = document.querySelector("#admin-product-list");
+  const template = document.querySelector("#admin-product-template");
+  document.querySelector("#admin-product-count").textContent = draftProducts.length;
+  list.innerHTML = "";
+
+  if (!draftProducts.length) {
+    list.innerHTML = '<p class="empty-list">No products yet. Use the form to add your first product.</p>';
+    return;
+  }
+
+  draftProducts.forEach((product, index) => {
+    const item = template.content.cloneNode(true);
+    const image = item.querySelector("img");
+    item.querySelector(".admin-category").textContent = product.category;
+    item.querySelector("h3").textContent = product.name;
+    item.querySelector("p").textContent = product.description;
+    item.querySelector("b").textContent = product.price;
+    if (product.image) {
+      image.src = product.image;
+      image.alt = product.name;
+      image.hidden = false;
+    }
+    item.querySelector(".edit-product").addEventListener("click", () => populateForm(index));
+    item.querySelector(".delete-product").addEventListener("click", () => {
+      if (window.confirm(`Remove “${product.name}” from this draft?`)) {
+        draftProducts.splice(index, 1);
+        saveDraft();
+        clearForm();
+      }
+    });
+    list.appendChild(item);
+  });
+}
+
+function showImagePreview(src) {
+  previewImage.src = src;
+  imagePreview.hidden = !src;
+}
+
+function clearForm() {
+  productForm.reset();
+  document.querySelector("#editing-index").value = "";
+  document.querySelector("#form-title").textContent = "Add a product";
+  document.querySelector("#save-product").innerHTML = 'Add product <span aria-hidden="true">→</span>';
+  showImagePreview("");
+}
+
+function populateForm(index) {
+  const product = draftProducts[index];
+  document.querySelector("#editing-index").value = index;
+  document.querySelector("#product-name").value = product.name;
+  document.querySelector("#product-category").value = product.category;
+  document.querySelector("#product-price").value = product.price;
+  document.querySelector("#product-description").value = product.description;
+  imageUrlInput.value = product.image || "";
+  imageFileInput.value = "";
+  document.querySelector("#form-title").textContent = "Edit product";
+  document.querySelector("#save-product").innerHTML = 'Save changes <span aria-hidden="true">→</span>';
+  showImagePreview(product.image || "");
+  document.querySelector(".product-form-panel").scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+function compressImage(file) {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onerror = () => reject(new Error("The image could not be read."));
+    reader.onload = () => {
+      const image = new Image();
+      image.onerror = () => reject(new Error("The selected file is not a usable image."));
+      image.onload = () => {
+        const longestSide = 1000;
+        const scale = Math.min(1, longestSide / Math.max(image.width, image.height));
+        const canvas = document.createElement("canvas");
+        canvas.width = Math.round(image.width * scale);
+        canvas.height = Math.round(image.height * scale);
+        canvas.getContext("2d").drawImage(image, 0, 0, canvas.width, canvas.height);
+        resolve(canvas.toDataURL("image/jpeg", 0.82));
+      };
+      image.src = reader.result;
+    };
+    reader.readAsDataURL(file);
+  });
+}
+
+loginForm.addEventListener("submit", (event) => {
+  event.preventDefault();
+  const username = safeText(document.querySelector("#username").value);
+  const password = document.querySelector("#password").value;
+  if (username !== ADMIN_USERNAME || password !== ADMIN_PASSWORD) {
+    loginError.textContent = "That username or password is not correct.";
+    return;
+  }
+  sessionStorage.setItem("designTradersAdmin", "true");
+  loginError.textContent = "";
+  loginScreen.hidden = true;
+  adminScreen.hidden = false;
+  renderAdminProducts();
+});
+
+productForm.addEventListener("submit", (event) => {
+  event.preventDefault();
+  const product = {
+    name: safeText(document.querySelector("#product-name").value),
+    category: document.querySelector("#product-category").value,
+    price: safeText(document.querySelector("#product-price").value),
+    description: safeText(document.querySelector("#product-description").value),
+    image: safeText(imageUrlInput.value)
+  };
+  const editIndex = document.querySelector("#editing-index").value;
+  if (editIndex === "") draftProducts.push(product);
+  else draftProducts[Number(editIndex)] = product;
+  saveDraft();
+  clearForm();
+});
+
+imageFileInput.addEventListener("change", async () => {
+  const file = imageFileInput.files[0];
+  if (!file) return;
+  try {
+    imageUrlInput.value = await compressImage(file);
+    showImagePreview(imageUrlInput.value);
+  } catch (error) {
+    window.alert(error.message);
+    imageFileInput.value = "";
+  }
+});
+imageUrlInput.addEventListener("input", () => showImagePreview(imageUrlInput.value));
+document.querySelector("#remove-image").addEventListener("click", () => {
+  imageUrlInput.value = "";
+  imageFileInput.value = "";
+  showImagePreview("");
+});
+document.querySelector("#clear-form").addEventListener("click", clearForm);
+document.querySelector("#logout-button").addEventListener("click", () => {
+  sessionStorage.removeItem("designTradersAdmin");
+  adminScreen.hidden = true;
+  loginScreen.hidden = false;
+  loginForm.reset();
+});
+document.querySelector("#reset-button").addEventListener("click", () => {
+  if (window.confirm("Restore the original product list? Your current local draft will be removed.")) {
+    draftProducts = structuredClone(baseProducts);
+    saveDraft();
+    clearForm();
+  }
+});
+document.querySelector("#download-button").addEventListener("click", () => {
+  const fileContent = `/* Updated product data for DESIGN TRADERS — generated by the Admin dashboard. */\nwindow.DESIGN_TRADERS_PRODUCTS = ${JSON.stringify(draftProducts, null, 2)};\n`;
+  const link = document.createElement("a");
+  link.href = URL.createObjectURL(new Blob([fileContent], { type: "application/javascript" }));
+  link.download = "product-data.js";
+  link.click();
+  URL.revokeObjectURL(link.href);
+});
+
+if (sessionStorage.getItem("designTradersAdmin") === "true") {
+  loginScreen.hidden = true;
+  adminScreen.hidden = false;
+  renderAdminProducts();
+}
